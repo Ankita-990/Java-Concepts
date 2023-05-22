@@ -1,13 +1,13 @@
-import java.
+// import java.
 
-class Memoiztion 
+class Memoiztion
 {
     public static void main(String args[])
     {
         int pos = 0;
         int value = 0;
 
-        static Map<Integer, Integer> cache = new Map<>;
+        // static Map<Integer, Integer> cache = new Map<>;
 
         value = fib(8);
         System.out.println(value);
@@ -23,7 +23,7 @@ class Memoiztion
             return 1;
 
         int result = fib(pos - 1) + fib(pos - 2);
-        cache.put(pos, result);
+        // cache.put(pos, result);
 
         return result;
     }
