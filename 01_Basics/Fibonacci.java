@@ -2,11 +2,9 @@ public class Fibonacci
 {
     public static void main(String args[])
     {
-
-        int pos = 0;
         int value = 0;
 
-        value = fib(7);
+        value = fib(8);
 
         System.out.println(value);
 
@@ -18,7 +16,7 @@ public class Fibonacci
         if(pos == 0)
             return 0;
 
-        if(pos == 1)
+        if(pos == 1 || pos == 2)
             return 1;
 
         return fib(pos - 1) + fib(pos - 2);
